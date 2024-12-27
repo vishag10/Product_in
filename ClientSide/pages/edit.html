@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Adding Form</title>
+    <link rel="stylesheet" href="../css/reg.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create post</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="brand">Brand:</label>
+            <select id="brand" name="brand" required>
+                <option value="">Select Brand</option>
+                <option value="brand1">Brand 1</option>
+                <option value="brand2">Brand 2</option>
+                <option value="brand3">Brand 3</option>
+            </select>
+
+            <label for="cc">CC:</label>
+            <select id="cc" name="cc" required>
+                <option value="">Select CC</option>
+                <option value="100cc">100 CC</option>
+                <option value="150cc">150 CC</option>
+                <option value="200cc">200 CC</option>
+            </select>
+
+            <label for="fuelType">Fuel Type:</label>
+            <select id="fuelType" name="fuelType" required>
+                <option value="">Select Fuel Type</option>
+                <option value="petrol">Petrol</option>
+                <option value="diesel">Diesel</option>
+                <option value="electric">Electric</option>
+            </select>
+
+            <label for="mileage">Mileage:</label>
+            <select id="mileage" name="mileage" required>
+                <option value="">Select Mileage</option>
+                <option value="10kmpl">10 kmpl</option>
+                <option value="15kmpl">15 kmpl</option>
+                <option value="20kmpl">20 kmpl</option>
+            </select>
+
+            <label for="color">Color:</label>
+            <select id="color" name="color" required>
+                <option value="">Select Color</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+            </select>
+
+            <label for="seats">Seats:</label>
+            <select id="seats" name="seats" required>
+                <option value="">Select Seats</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label for="file">Choose File:</label>
+            <input type="file" id="file" name="file" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
